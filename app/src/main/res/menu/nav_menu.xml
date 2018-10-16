@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:title="基本信息">
+            <menu>
+            <item
+                android:id="@+id/school"
+                android:icon="@drawable/book"
+                android:title="学校：广东工业大学" />
+            <item
+                android:id="@+id/college"
+                android:icon="@drawable/placeholder"
+                android:title="学院：计算机学院" />
+
+            <item
+                android:id="@+id/schoolId"
+                android:icon="@drawable/glass"
+                android:title="学号：3115004896 " />
+
+            <item
+                android:id="@+id/grade"
+                android:icon="@drawable/glasses"
+                android:title="年级：2015级" />
+
+            <item
+                android:id="@+id/classes"
+                android:icon="@drawable/like"
+                android:title="班级：计科1班 " />
+
+            <item
+                android:id="@+id/nameID"
+                android:icon="@drawable/avatar"
+                android:title="姓名：徐国宝 " />
+
+            </menu>
+        </item>
+
+    <group android:checkableBehavior="single"
+        >
+        <item android:title="联系信息"
+            android:visible="true">
+            <menu>
+                <item
+                    android:id="@+id/phone"
+                    android:icon="@drawable/pcall"
+                    android:title="15625000819 " />
+                <item
+                    android:id="@+id/place"
+                    android:icon="@drawable/placeholder"
+                    android:title="大学城广工西三215" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item android:title="设置">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/settings"
+                android:title="设置 " />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/tag"
+                android:title="退出菜单" />
+            <item
+                android:id="@+id/exits"
+                android:icon="@drawable/logout"
+                android:title="退出程序" />
+        </menu>
+    </item>
+    </group>
+</menu>
